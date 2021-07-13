@@ -1,0 +1,76 @@
+#logo{
+    width: 150px;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+   
+:root{
+    --yellow:#db0f0f;
+}
+
+
+*::selection{
+    background: var(--yellow);
+    color: #fff;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 0.9rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--yellow);
+}
+
+.nav-link:hover{
+    color: #db0f0f;
+}
+
+.checked{
+    color: orange;
+}
+
+.lows{
+    color: white;
+}
+
+#button{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    z-index: 100;
+    border: 1px #db0f0f solid;
+}
+#button:hover{
+    background-color: #db0f0f;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.footer_links a{
+    color: grey;
+}
+
+.footer_links a:hover{
+    color: black;
+}
+
+
+.img:hover{
+    width:250px;
+}
+
+.product-details{
+    list-style: none;
+}
