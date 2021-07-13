@@ -1,3 +1,4 @@
+
 #logo{
     width: 150px;
 }
@@ -67,10 +68,16 @@ a:hover{
 }
 
 
-.img:hover{
-    width:250px;
-}
 
 .product-details{
     list-style: none;
+}
+
+#order{
+ border: 2px lightcyan solid;
+}
+
+#testimonial{
+    width: 200px;
+    height: 100px;
 }
